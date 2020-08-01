@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>paint trucho</title>
+		<link rel="stylesheet" href="css/styless.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h1>dibujar cn el mouseeee y flechitas del teclaoo</h1>
+			<small
+				>si va a usar las flechitas,recominedo tenr el mouse fuera del area de
+				dibujooo.</small
+			>
+			<div class="rows-container">
+				<ul class="flechas">
+					<li>W</li>
+					<li class="flechas-lineas">|</li>
+					<li>A</li>
+					<li class="flechas-lineas">|</li>
+					<li>S</li>
+					<li class="flechas-lineas">|</li>
+					<li>D</li>
+					<li class="flechas-lineas">|</li>
+					<li>y las flechitas</li>
+				</ul>
+			</div>
+			<div class="colors">
+				<div id="white" class="color white"></div>
+
+				<div id="goma-borrar">
+					<img src="img/borrador.png" class="color goma-borrar" />
+				</div>
+				<div class="color input-color-container">
+					<small class="more-colors">otro color:</small>
+					<input type="color" class="input-color" id="input-color" />
+				</div>
+			</div>
+			<div class="colors">
+				<input
+					id="tamanio-pincel"
+					type="number"
+					class="tamanio-pincel"
+					placeholder="tamaño del pincel"
+				/>
+			</div>
+
+			<div class="canvas-containerr">
+				<div class="container-borrar-todo">
+					<input
+						type="button"
+						value="Borrar todo"
+						id="boton_borrar"
+						class="borrar-todo"
+					/>
+				</div>
+				<canvas width="600" height="400" id="mouse-canvas"></canvas>
+			</div>
+		</div>
+		<footer>
+			hecho con amor(y odio) por
+			<a target="_blank" href="https://instagram.com/brandonporcel">brandonporcel</a>
+		</footer>
+		<script src="dibujar_mouse.js"></script>
+	</body>
+</html>

@@ -1,0 +1,11 @@
+estoy usando offsetX/Y xq si no,
+no funcionaba en firefox,
+
+al hacer eso me impide dibujar bien en un
+tamaño pqueño
+
+con layer no iba a funcionar en firefox
+pero en chrome iba a funcionar bien,podria dibuajar
+en cualquier parte. 
+offset te limita,pasa a los 800px mas o menos ya +
+solo te dejha usar un parte del canvas

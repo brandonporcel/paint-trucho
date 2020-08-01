@@ -1,0 +1,51 @@
+* { margin: 0; padding: 0; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body { background: #4b5d67; color: #ddd; }
+
+.container { width: 75%; margin: 10px auto; }
+
+.container h1 { color: yellow; text-align: center; margin: 0; }
+
+.container small { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.container .colors { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; margin: 10px; }
+
+.container .colors .color { width: 50px; height: 50px; border: 1px solid #000; border-radius: 10px; cursor: pointer; }
+
+.container .colors .color.white { background: white; }
+
+.container .colors .color.goma-borrar { border: 1px solid #fff; }
+
+.container .colors .color.input-color-container { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; position: relative; }
+
+.container .colors .color .more-colors { cursor: context-menu; margin-top: 50px; width: 100px; }
+
+.container .colors .color .input-color { border: none; height: 50px; width: 50px; border-radius: 10px; position: absolute; }
+
+.container .colors .tamanio-pincel { padding: 5px; }
+
+.container-borrar-todo { padding: 2px; margin-left: 5px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.borrar-todo { height: 20px; }
+
+.canvas-containerr { padding: 5px; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-item-align: center; align-self: center; }
+
+canvas { background: #37454d; border: 1px solid #fff; cursor: crosshair; width: 640px; height: 400px; margin: auto; }
+
+.rows-container { text-align: center; }
+
+ul.flechas { list-style: none; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin: 10px 0; }
+
+ul.flechas li { color: #000; margin-right: 20px; }
+
+ul.flechas .flechas-lineas { color: white; }
+
+footer { text-align: center; }
+
+@media screen and (max-width: 1000px) { body { background: yellow; }
+  .container { padding: 5px; margin-top: 60px; }
+  canvas { width: 400px; height: 350px; } }
+
+@media screen and (max-width: 700px) { .container { background: #4b5d67; margin-top: 100px; }
+  canvas { width: 200px; height: 200px; } }
+/*# sourceMappingURL=styless.css.map */
